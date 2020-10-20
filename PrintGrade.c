@@ -6,7 +6,7 @@ void main()
   float GPA[30] = {2.73, 2.35, 3.65, 3.24, 1.32, 3.26}; 
   int N = 6, i;
   int SearchID, found_index; 
- 
+  printf("AAA\n");
   printf("\nSTUDENT GPA LIST: \n"); 
   printf("ID----Name------------------------GPA\n"); 
   for (i=0;i<N; i++)
@@ -20,7 +20,7 @@ void main()
       for (i = 0; i<N && found_index == -1; i++)
 
         if (SearchID == ID[i])
-          printf("AAA\n");
+
           found_index = i;
 
       if (found_index == -1)
@@ -33,7 +33,7 @@ void main()
 
       scanf("%d", &SearchID);
   }
-  printf("AAA\n");
   printf("Bye Bye\n"); 
   printf("Change Somethings\n");
+  printf("AAA\n");
 }
