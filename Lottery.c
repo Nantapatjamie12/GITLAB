@@ -27,5 +27,6 @@ void main()
     scanf("%d", &YourLotteryNo); 
   }
   printf("GOODBYE");
+  printf("Change to test GIT\n");
   scanf("%d", &i);
 }
